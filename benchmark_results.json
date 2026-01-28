@@ -1,0 +1,142 @@
+{
+  "last_run_utc": "2026-01-27T23:09:00Z",
+  "type": "sse",
+  "tools": {
+    "get_student_grades": {
+      "avg_latency": 3.6475882530212402,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 1823.7941265106201
+    },
+    "get_schedule": {
+      "avg_latency": 3.513026714324951,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 1756.5133571624756
+    },
+    "get_all_professors": {
+      "avg_latency": 3.6040940284729004,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 1802.0470142364502
+    },
+    "get_professor_for_module": {
+      "avg_latency": 4.06340217590332,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 2031.7010879516602
+    },
+    "get_professor_info": {
+      "avg_latency": 3.925845146179199,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 1962.9225730895996
+    },
+    "get_events": {
+      "avg_latency": 4.914043426513672,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 2457.021713256836
+    },
+    "query_academic_data": {
+      "avg_latency": 4.962592601776123,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 2481.2963008880615
+    }
+  },
+  "resources": {
+    "intsem": {
+      "list_latency_ms": 4.001140594482422,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.094137085808648
+    },
+    "webeng": {
+      "list_latency_ms": 4.004955291748047,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.957337803310818
+    },
+    "cloud": {
+      "list_latency_ms": 4.026651382446289,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.055526521470812
+    },
+    "datasci": {
+      "list_latency_ms": 3.998994827270508,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.9756960339016385
+    },
+    "sysarch": {
+      "list_latency_ms": 3.9997100830078125,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.8776397705078125
+    },
+    "itlaw": {
+      "list_latency_ms": 4.119873046875,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.122508896721734
+    },
+    "algo": {
+      "list_latency_ms": 5.467653274536133,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.855493333604601
+    },
+    "math": {
+      "list_latency_ms": 4.025459289550781,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.845903608534071
+    },
+    "prog": {
+      "list_latency_ms": 4.006147384643555,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.993550936381022
+    },
+    "n01": {
+      "list_latency_ms": 4.934072494506836,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.333708021375868
+    },
+    "n02": {
+      "list_latency_ms": 4.00233268737793,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.09082571665446
+    },
+    "n03": {
+      "list_latency_ms": 4.549503326416016,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.9186875025431314
+    },
+    "p01": {
+      "list_latency_ms": 4.024744033813477,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.923230701022678
+    },
+    "p02": {
+      "list_latency_ms": 4.003763198852539,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.088309076097277
+    },
+    "p03": {
+      "list_latency_ms": 5.0067901611328125,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.8945542441474066
+    },
+    "p04": {
+      "list_latency_ms": 3.988981246948242,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.057142469618055
+    },
+    "p05": {
+      "list_latency_ms": 4.841089248657227,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 4.188179969787598
+    },
+    "p06": {
+      "list_latency_ms": 4.051685333251953,
+      "list_item_count": 18,
+      "read_avg_latency_ms": 3.91995906829834
+    }
+  },
+  "overall_avg_latency_tools": 4.090084620884487,
+  "overall_avg_latency_resources": 4.010688375543665
+}

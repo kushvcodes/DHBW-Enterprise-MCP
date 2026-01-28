@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+dist/
+build/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+.venv/
+venv/
+env/
+# Environments
+.env
+.flaskenv
+
+# Streamlit
+.streamlit/local/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE and Editor files
+.idea/
+.vscode/
+.history/
+
+# MCP SDK specific
+# Do not ignore translations/*.json - they are part of the app content
+# Do not ignore db.json - it's our database

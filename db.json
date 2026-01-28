@@ -1,0 +1,360 @@
+{
+  "professors": {
+    "p01": {
+      "name": "Prof. Dr. A. M\u00fcller",
+      "office": "Building A, Room 301",
+      "email": "mueller@dhbw-generic.de",
+      "department": "Business Informatics"
+    },
+    "p02": {
+      "name": "Prof. Dr. B. Harsh",
+      "office": "Building B, Room 102",
+      "email": "schmidt@dhbw-generic.de",
+      "department": "Computer Science"
+    },
+    "p03": {
+      "name": "Prof. C. Schneider",
+      "office": "Remote",
+      "email": "schneider@dhbw-generic.de",
+      "department": "Software Engineering"
+    },
+    "p04": {
+      "name": "Dr. D. Fischer",
+      "office": "Building A, Room 205",
+      "email": "fischer@dhbw-generic.de",
+      "department": "Business Administration"
+    },
+    "p05": {
+      "name": "Dr. E. Weber",
+      "office": "Building C, Room 410",
+      "email": "weber@dhbw-generic.de",
+      "department": "Mathematics"
+    },
+    "p06": {
+      "name": "Prof. Dr. F. Wagner",
+      "office": "Building A, Room 305",
+      "email": "wagner@dhbw-generic.de",
+      "department": "Law"
+    }
+  },
+  "students": {
+    "s1001": {
+      "name": "Student One",
+      "program": "Wirtschaftsinformatik",
+      "semester": 4
+    },
+    "s1002": {
+      "name": "Student Two",
+      "program": "Wirtschaftsinformatik",
+      "semester": 4
+    },
+    "s1003": {
+      "name": "Student Three",
+      "program": "Informatik",
+      "semester": 2
+    },
+    "s1004": {
+      "name": "Student Four",
+      "program": "BWL",
+      "semester": 6
+    },
+    "s1005": {
+      "name": "Student Five",
+      "program": "Informatik",
+      "semester": 2
+    },
+    "s1006": {
+      "name": "Student Six",
+      "program": "Wirtschaftsinformatik",
+      "semester": 1
+    },
+    "s1007": {
+      "name": "Student Seven",
+      "program": "BWL",
+      "semester": 3
+    },
+    "s1008": {
+      "name": "Student Eight",
+      "program": "Wirtschaftsinformatik",
+      "semester": 4
+    }
+  },
+  "courses": {
+    "Wirtschaftsinformatik": {
+      "name": "Business Information Systems",
+      "module_code": "WWI200",
+      "prof_id": "p01",
+      "student_ids": [
+        "s1001",
+        "s1002",
+        "s1006",
+        "s1008"
+      ],
+      "prerequisites": [
+        "Introduction to CS"
+      ],
+      "credits": 5
+    },
+    "Informatik": {
+      "name": "Computer Science Fundamentals",
+      "module_code": "INF100",
+      "prof_id": "p02",
+      "student_ids": [
+        "s1003",
+        "s1005"
+      ],
+      "prerequisites": [
+        "Basic Math"
+      ],
+      "credits": 6
+    },
+    "BWL": {
+      "name": "Business Administration Basics",
+      "module_code": "BWL101",
+      "prof_id": "p04",
+      "student_ids": [
+        "s1004",
+        "s1007"
+      ],
+      "prerequisites": [
+        "None"
+      ],
+      "credits": 5
+    },
+    "SoftwareEngineering": {
+      "name": "Advanced Software Engineering",
+      "module_code": "SWE300",
+      "prof_id": "p03",
+      "student_ids": [
+        "s1001",
+        "s1002",
+        "s1003"
+      ],
+      "prerequisites": [
+        "Programming I",
+        "Programming II"
+      ],
+      "credits": 5
+    },
+    "Mathematics": {
+      "name": "Applied Mathematics",
+      "module_code": "MAT200",
+      "prof_id": "p05",
+      "student_ids": [
+        "s1001",
+        "s1003",
+        "s1005"
+      ],
+      "prerequisites": [
+        "High School Math"
+      ],
+      "credits": 5
+    }
+  },
+  "grades": {
+    "s1001": [
+      {
+        "module_id": "intsem",
+        "module": "Integration Seminar",
+        "grade": 1.0,
+        "credits": 5,
+        "prof_id": "p01",
+        "status": "passed",
+        "semester": "WS24/25"
+      },
+      {
+        "module_id": "webeng",
+        "module": "Web Engineering",
+        "grade": 1.3,
+        "credits": 5,
+        "prof_id": "p02",
+        "status": "passed",
+        "semester": "WS24/25"
+      },
+      {
+        "module_id": "cloud",
+        "module": "Cloud Computing",
+        "grade": 1.7,
+        "credits": 5,
+        "prof_id": "p03",
+        "status": "passed",
+        "semester": "SS24"
+      },
+      {
+        "module_id": "datasci",
+        "module": "Data Science",
+        "grade": 1.0,
+        "credits": 5,
+        "prof_id": "p01",
+        "status": "passed",
+        "semester": "SS24"
+      },
+      {
+        "module_id": "acc",
+        "module": "Accounting",
+        "grade": 2.3,
+        "credits": 3,
+        "prof_id": "p04",
+        "status": "passed",
+        "semester": "WS23/24"
+      }
+    ],
+    "s1002": [
+      {
+        "module_id": "intsem",
+        "module": "Integration Seminar",
+        "grade": 1.7,
+        "credits": 5,
+        "prof_id": "p01",
+        "status": "passed",
+        "semester": "WS24/25"
+      },
+      {
+        "module_id": "webeng",
+        "module": "Web Engineering",
+        "grade": 1.0,
+        "credits": 5,
+        "prof_id": "p02",
+        "status": "passed",
+        "semester": "WS24/25"
+      }
+    ],
+    "s1003": [
+      {
+        "module_id": "prog1",
+        "module": "Programming I",
+        "grade": 3.0,
+        "credits": 5,
+        "prof_id": "p02",
+        "status": "passed",
+        "semester": "WS24/25"
+      },
+      {
+        "module_id": "math1",
+        "module": "Linear Algebra",
+        "grade": 5.0,
+        "credits": 5,
+        "prof_id": "p05",
+        "status": "failed",
+        "semester": "WS24/25"
+      }
+    ]
+  },
+  "schedule": {
+    "Wirtschaftsinformatik": [
+      {
+        "day": "Monday",
+        "time": "09:00 - 12:15",
+        "room": "A.2.01",
+        "lecture": "System Architectures",
+        "prof_id": "p01",
+        "type": "Lecture"
+      },
+      {
+        "day": "Tuesday",
+        "time": "14:00 - 17:15",
+        "room": "Remote (Zoom)",
+        "lecture": "Web Engineering",
+        "prof_id": "p02",
+        "type": "Lecture"
+      },
+      {
+        "day": "Wednesday",
+        "time": "09:00 - 12:15",
+        "room": "Lab 1",
+        "lecture": "Data Science Project",
+        "prof_id": "p01",
+        "type": "Lab"
+      },
+      {
+        "day": "Friday",
+        "time": "10:00 - 11:30",
+        "room": "A.3.05",
+        "lecture": "IT Law",
+        "prof_id": "p06",
+        "type": "Lecture"
+      }
+    ],
+    "Informatik": [
+      {
+        "day": "Monday",
+        "time": "09:00 - 12:15",
+        "room": "B.1.01",
+        "lecture": "Algorithms & Data Structures",
+        "prof_id": "p02",
+        "type": "Lecture"
+      },
+      {
+        "day": "Thursday",
+        "time": "09:00 - 12:15",
+        "room": "C.4.10",
+        "lecture": "Calculus II",
+        "prof_id": "p05",
+        "type": "Lecture"
+      }
+    ]
+  },
+"syllabi": {
+    "intsem": "COURSE: Integration Seminar (WWI-INT)\n\nFOCUS: Bridging Theory and Practice.\nTOPICS: Scientific Writing, Project Mgmt, Presentation Skills.\nEXAM: Paper (70%) + Talk (30%).",
+    "webeng": "COURSE: Web Engineering (INF-WEB)\n\nFOCUS: Modern Web Stacks.\nTOPICS: React, Node.js, REST vs GraphQL, MCP Basics.\nEXAM: Project Portfolio.",
+    "cloud": "COURSE: Cloud Computing (INF-CLD)\n\nFOCUS: Scalable Infrastructure.\nTOPICS: AWS/Azure Basics, Docker, Kubernetes, Serverless.\nEXAM: Written Exam (90 min).",
+    "datasci": "COURSE: Data Science (WWI-DS)\n\nFOCUS: Extracting Knowledge from Data.\nTOPICS: Python Pandas, Scikit-Learn, Neural Networks, Ethics in AI.\nEXAM: Project.",
+    "sysarch": "COURSE: System Architectures\n\nFOCUS: Enterprise Patterns.\nTOPICS: Microservices, Event-Driven Architecture, Legacy Migration.\nEXAM: Oral Exam.",
+    "itlaw": "COURSE: IT Law\n\nFOCUS: Legal Frameworks.\nTOPICS: GDPR, Copyright, Software Contracts, Liability.\nEXAM: Written Exam.",
+    "algo": "COURSE: Algorithms\n\nFOCUS: Efficiency.\nTOPICS: Sorting, Graph Theory, Big-O Notation.\nEXAM: Written Exam.",
+    "math": "COURSE: Applied Math\n\nFOCUS: Calculus & Linear Algebra.\nTOPICS: Matrices, Vectors, Differential Equations.\nEXAM: Written Exam.",
+    "prog": "COURSE: Programming I\n\nFOCUS: Java/Python Basics.\nTOPICS: Variables, Loops, OOP, Clean Code.\nEXAM: Coding Test."
+  },
+  "news": {
+    "n01": {
+      "date": "2026-01-15",
+      "headline": "New Campus Library Opening",
+      "author": "University Admin",
+      "category": "Campus Life",
+      "body": "The state-of-the-art library in Building D will officially open its doors next Monday. It features 500 new study places, group work rooms, and a 24/7 automated return system."
+    },
+    "n02": {
+      "date": "2025-12-10",
+      "headline": "Research Grant Awarded",
+      "author": "Research Dept.",
+      "category": "Research",
+      "body": "Prof. Dr. M\u00fcller has received a significant grant from the EU for his research on 'AI in Enterprise Resource Planning'. The project will start in Q2 2026."
+    },
+    "n03": {
+      "date": "2025-11-20",
+      "headline": "Cafeteria Menu Update",
+      "author": "Student Services",
+      "category": "Campus Life",
+      "body": "Starting next month, the cafeteria will offer a wider range of vegan and vegetarian options, including a daily changing vegan bowl."
+    }
+  },
+  "events": [
+    {
+      "name": "Annual Career Fair",
+      "date": "2026-04-15",
+      "location": "Main Hall, Building A",
+      "organizer": "Career Center"
+    },
+    {
+      "name": "Guest Lecture: Future of Fintech",
+      "date": "2026-02-20",
+      "location": "Auditorium B",
+      "organizer": "Dept. of Finance"
+    },
+    {
+      "name": "Summer Campus Party",
+      "date": "2026-07-10",
+      "location": "Campus Garden",
+      "organizer": "Student Union"
+    }
+  ],
+
+  "publications": {
+      "p01": ["AI in ERP (2025)", "Digital Transformation (2024)"],
+      "p02": ["Microservices Patterns (2024)", "Web Security (2023)"],
+      "p03": ["Serverless Architectures (2025)"],
+      "p04": ["Modern Accounting (2023)"],
+      "p05": ["Stochastic Models (2024)"],
+      "p06": ["GDPR in Practice (2022)"]
+  }
+}

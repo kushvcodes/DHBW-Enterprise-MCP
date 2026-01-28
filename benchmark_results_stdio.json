@@ -1,0 +1,50 @@
+{
+  "last_run_utc": "2026-01-27T23:10:01Z",
+  "type": "stdio",
+  "tools": {
+    "get_student_grades": {
+      "avg_latency": 0.16722869873046875,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 83.61434936523438
+    },
+    "get_schedule": {
+      "avg_latency": 0.1831197738647461,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 91.55988693237305
+    },
+    "get_all_professors": {
+      "avg_latency": 0.20427227020263672,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 102.13613510131836
+    },
+    "get_professor_for_module": {
+      "avg_latency": 0.18698978424072266,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 93.49489212036133
+    },
+    "get_professor_info": {
+      "avg_latency": 0.19388246536254883,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 96.94123268127441
+    },
+    "get_events": {
+      "avg_latency": 0.2270817756652832,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 113.5408878326416
+    },
+    "query_academic_data": {
+      "avg_latency": 0.19575262069702148,
+      "successes": 500,
+      "errors": 0,
+      "total_time": 97.87631034851074
+    }
+  },
+  "resources": {},
+  "overall_avg_latency_tools": 0.19404676982334682
+}
